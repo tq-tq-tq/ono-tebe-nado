@@ -1,1 +1,1 @@
-https://github.com/tq-tq-tq/ono-tebe-nado
+https://github.com/tq-tq-tq/ono-tebe-nado.git
