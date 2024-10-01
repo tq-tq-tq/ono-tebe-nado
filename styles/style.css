@@ -168,10 +168,6 @@
   min-height: 563px;
 }
 
-.card-link {
-  height: 100%;
-}
-
 .card {
   display: flex;
   position: relative;
