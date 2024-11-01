@@ -1,0 +1,19 @@
+{
+  "name": "ono-tebe-nado",
+  "version": "1.0.0",
+  "description": "https://github.com/tq-tq-tq/ono-tebe-nado.git",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'Привет!'",
+    "check": "prettier --check './**/*.{html,css,js}'",
+    "format": "prettier --write './**/*.{html,css,js}'",
+    "lint": "stylelint **/*.css'",
+    "lintfix": "stylelint **/*.css' --fix'"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prettier": "^3.3.3",
+    "stylelint": "^16.10.0"
+  }
+}

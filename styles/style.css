@@ -1,3 +1,5 @@
+* {
+}
 .header {
   display: grid;
   grid-template-columns: 1fr 148px 1fr;
@@ -17,9 +19,13 @@
   list-style: circle;
 }
 
-.header__links-list-item_no-bullit {
-  list-style: none;
+.header__links-list-item:first-child {
+  list-style: none;     
 }
+
+/* .header__links-list-item_no-bullit {
+  list-style: none;
+} */
 
 .header__link {
   font-size: 18px;
@@ -48,6 +54,11 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 24.3px;
+}
+
+.address a {
+  border-bottom: 1px solid;
+  text-decoration: none;
 }
 
 .header__address {
