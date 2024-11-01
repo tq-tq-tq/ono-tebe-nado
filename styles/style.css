@@ -1,5 +1,6 @@
 * {
 }
+
 .header {
   display: grid;
   grid-template-columns: 1fr 148px 1fr;
@@ -20,7 +21,7 @@
 }
 
 .header__links-list-item:first-child {
-  list-style: none;     
+  list-style: none;
 }
 
 /* .header__links-list-item_no-bullit {
@@ -87,6 +88,7 @@
 .no-letter-spacing {
   letter-spacing: 0em;
 }
+
 .cover {
   background-image: url(../images/cover.jpg);
   position: relative;
@@ -96,6 +98,7 @@
   width: 100%;
   min-height: 757px;
 }
+
 .cover_title {
   font-size: 100px;
   display: flex;
